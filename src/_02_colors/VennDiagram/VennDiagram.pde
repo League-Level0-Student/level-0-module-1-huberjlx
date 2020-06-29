@@ -1,1 +1,11 @@
 size(600,600);
+fill(#FF0303,75);
+ellipse(100,100,100,100);
+fill(#032AFF,75);
+ellipse(175,100,100,100);
+fill(#03FF3B,75);
+ellipse(137,150,100,100);
+fill(#030303);
+text("LeagueOfLegends", 25, 100);
+text("Valorant", 175, 100);
+text("Minecraft", 120, 170);

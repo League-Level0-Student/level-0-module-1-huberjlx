@@ -14,7 +14,36 @@ import javax.swing.JOptionPane;
  * 
  */
 
-public class SecretMessageBox {
+public class SecretMessageBox {public static void main(String[] args) {
+	
+	String Passcode = "League";
+	String secretMessage = JOptionPane.showInputDialog(null, "Put in a secret message");
+	
+	String passcodeGuess = JOptionPane.showInputDialog(null, "Passcode");
+	
+	if (passcodeGuess.equalsIgnoreCase("League")) {
+		
+		JOptionPane.showMessageDialog(null, secretMessage);
+	}
+	else {
+		JOptionPane.showMessageDialog(null, "Intruder");
+		JOptionPane.showMessageDialog(null, "Alert");
+		JOptionPane.showMessageDialog(null, "Intruder");
+		JOptionPane.showMessageDialog(null, "Alert");
+		JOptionPane.showMessageDialog(null, "Intruder");
+		JOptionPane.showMessageDialog(null, "Alert");
+		JOptionPane.showMessageDialog(null, "Intruder");
+		JOptionPane.showMessageDialog(null, "Alert");
+		JOptionPane.showMessageDialog(null, "Intruder");
+		JOptionPane.showMessageDialog(null, "Alert");
+		JOptionPane.showMessageDialog(null, "Intruder");
+		JOptionPane.showMessageDialog(null, "Alert");
+		JOptionPane.showMessageDialog(null, "Intruder");
+		JOptionPane.showMessageDialog(null, "Alert");
+	}
+}
+	
+	
 
 	// 0. Make a main method and put steps 1-5 inside it
 	
